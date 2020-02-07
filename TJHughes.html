@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0468f04361824d38a2274ee92c0cfc7a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0468f04361824d38a2274ee92c0cfc7a" ></div>
+        
+</body>
+<script>    
+    
+            var map_0468f04361824d38a2274ee92c0cfc7a = L.map(
+                "map_0468f04361824d38a2274ee92c0cfc7a",
+                {
+                    center: [54.093409, -2.89479],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e56f51419c564f9b83a63268866bac8c = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+            var circle_93af684481ba408c8535d3858aa9f31f = L.circle(
+                [53.3891235, -3.0239121],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15264.337522473747, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_0b05cc61b430477092d0b4ff2832146f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45b70048f29b4174bf5d7046b875cc30 = $(`<div id="html_45b70048f29b4174bf5d7046b875cc30" style="width: 100.0%; height: 100.0%;">Birkenhead, Rating = 4.1 from 233 reviews</div>`)[0];
+            popup_0b05cc61b430477092d0b4ff2832146f.setContent(html_45b70048f29b4174bf5d7046b875cc30);
+        
+
+        circle_93af684481ba408c8535d3858aa9f31f.bindPopup(popup_0b05cc61b430477092d0b4ff2832146f)
+        ;
+
+        
+    
+    
+            var circle_f6f9340bc8ed439eac146993c5bdfc84 = L.circle(
+                [53.4518251, -2.9918986],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7745.966692414834, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_8beb77afccfd4125966a8911e4f13e02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42e3facb0cab4b238b8f11c9858543d6 = $(`<div id="html_42e3facb0cab4b238b8f11c9858543d6" style="width: 100.0%; height: 100.0%;">Bootle, Rating = 4.0 from 60 reviews</div>`)[0];
+            popup_8beb77afccfd4125966a8911e4f13e02.setContent(html_42e3facb0cab4b238b8f11c9858543d6);
+        
+
+        circle_f6f9340bc8ed439eac146993c5bdfc84.bindPopup(popup_8beb77afccfd4125966a8911e4f13e02)
+        ;
+
+        
+    
+    
+            var circle_55e715ad6260439d9d898800686638aa = L.circle(
+                [53.79540489999999, -1.7555725],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4690.41575982343, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_da3d8ad9094e473fb496add6c9a4c8bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5df1858efe545c3a046547a9fa6b788 = $(`<div id="html_f5df1858efe545c3a046547a9fa6b788" style="width: 100.0%; height: 100.0%;">Bradford, Rating = 3.7 from 22 reviews</div>`)[0];
+            popup_da3d8ad9094e473fb496add6c9a4c8bb.setContent(html_f5df1858efe545c3a046547a9fa6b788);
+        
+
+        circle_55e715ad6260439d9d898800686638aa.bindPopup(popup_da3d8ad9094e473fb496add6c9a4c8bb)
+        ;
+
+        
+    
+    
+            var circle_01ece350bd574bfe87bb4d5f877fd3c8 = L.circle(
+                [53.5937973, -2.2940219],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22248.59546128699, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_c8cf30f23bec4eafbda664212bc90869 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78125f911d67449a8e1934fd1e0e48f5 = $(`<div id="html_78125f911d67449a8e1934fd1e0e48f5" style="width: 100.0%; height: 100.0%;">Bury, Rating = 3.9 from 495 reviews</div>`)[0];
+            popup_c8cf30f23bec4eafbda664212bc90869.setContent(html_78125f911d67449a8e1934fd1e0e48f5);
+        
+
+        circle_01ece350bd574bfe87bb4d5f877fd3c8.bindPopup(popup_c8cf30f23bec4eafbda664212bc90869)
+        ;
+
+        
+    
+    
+            var circle_376e703b874344ad8d189b4d1f566b14 = L.circle(
+                [52.681202, -2.03998],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14282.8568570857, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_caca482c6f3a43c1b65460db95aa0b0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bf6ee6501de44ccb3f80ce050432827 = $(`<div id="html_6bf6ee6501de44ccb3f80ce050432827" style="width: 100.0%; height: 100.0%;">Cannock, Rating = 3.7 from 204 reviews</div>`)[0];
+            popup_caca482c6f3a43c1b65460db95aa0b0f.setContent(html_6bf6ee6501de44ccb3f80ce050432827);
+        
+
+        circle_376e703b874344ad8d189b4d1f566b14.bindPopup(popup_caca482c6f3a43c1b65460db95aa0b0f)
+        ;
+
+        
+    
+    
+            var circle_ebff0c14dbd94252b3492911885aaa53 = L.circle(
+                [51.7384332, 0.4792456],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8944.27190999916, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_e939a4cda5d44d72a98c2bca69ff9585 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_579c7d3a3bee4c41a7f7af6ab04cf6ef = $(`<div id="html_579c7d3a3bee4c41a7f7af6ab04cf6ef" style="width: 100.0%; height: 100.0%;">Chelmsford, Rating = 3.7 from 80 reviews</div>`)[0];
+            popup_e939a4cda5d44d72a98c2bca69ff9585.setContent(html_579c7d3a3bee4c41a7f7af6ab04cf6ef);
+        
+
+        circle_ebff0c14dbd94252b3492911885aaa53.bindPopup(popup_e939a4cda5d44d72a98c2bca69ff9585)
+        ;
+
+        
+    
+    
+            var circle_0a67d45658164c66ab9e9a5a42a62db5 = L.circle(
+                [53.23480190000001, -1.4252178],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17175.56403731767, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_bd8c15ea26734830b926765decd1e0fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db2ba8e6ae04496e9fce9d6722921249 = $(`<div id="html_db2ba8e6ae04496e9fce9d6722921249" style="width: 100.0%; height: 100.0%;">Chesterfield, Rating = 3.8 from 295 reviews</div>`)[0];
+            popup_bd8c15ea26734830b926765decd1e0fa.setContent(html_db2ba8e6ae04496e9fce9d6722921249);
+        
+
+        circle_0a67d45658164c66ab9e9a5a42a62db5.bindPopup(popup_bd8c15ea26734830b926765decd1e0fa)
+        ;
+
+        
+    
+    
+            var circle_62b081f7f1a946efaf52f60ac31deb5a = L.circle(
+                [52.4083753, -1.5148037],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18574.17562100671, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_bb2be257a44a4dac99099d620c98cd23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1adf3c260a974b72bf323e7a26907dfe = $(`<div id="html_1adf3c260a974b72bf323e7a26907dfe" style="width: 100.0%; height: 100.0%;">Coventry, Rating = 4.0 from 345 reviews</div>`)[0];
+            popup_bb2be257a44a4dac99099d620c98cd23.setContent(html_1adf3c260a974b72bf323e7a26907dfe);
+        
+
+        circle_62b081f7f1a946efaf52f60ac31deb5a.bindPopup(popup_bb2be257a44a4dac99099d620c98cd23)
+        ;
+
+        
+    
+    
+            var circle_65fb2804ac6a4b82be1f3e811b26e246 = L.circle(
+                [56.46398969999999, -2.968944599999999],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2828.42712474619, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_1e00c380fab744bcac1ede2f59ad9f97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b3c6e9128f14cc0b222464d72fcda67 = $(`<div id="html_2b3c6e9128f14cc0b222464d72fcda67" style="width: 100.0%; height: 100.0%;">Dundee, Rating = 3.0 from 8 reviews</div>`)[0];
+            popup_1e00c380fab744bcac1ede2f59ad9f97.setContent(html_2b3c6e9128f14cc0b222464d72fcda67);
+        
+
+        circle_65fb2804ac6a4b82be1f3e811b26e246.bindPopup(popup_1e00c380fab744bcac1ede2f59ad9f97)
+        ;
+
+        
+    
+    
+            var circle_8c793f3776c646d58c41fd1b9222814b = L.circle(
+                [54.77678390000001, -1.5731956],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2236.06797749979, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_1d979c345a354d19805867274e2c4fdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd82321269904760bd3bfc088d38cad2 = $(`<div id="html_fd82321269904760bd3bfc088d38cad2" style="width: 100.0%; height: 100.0%;">Durham, Rating = 4.6 from 5 reviews</div>`)[0];
+            popup_1d979c345a354d19805867274e2c4fdc.setContent(html_fd82321269904760bd3bfc088d38cad2);
+        
+
+        circle_8c793f3776c646d58c41fd1b9222814b.bindPopup(popup_1d979c345a354d19805867274e2c4fdc)
+        ;
+
+        
+    
+    
+            var circle_f8577fe321d44982a85b707b521b8b59 = L.circle(
+                [55.76033959999999, -4.1793472],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9433.981132056602, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_f1ff8b31dedf4e15bd087f3ac5728e41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe0fde557464131857c94a0189a662c = $(`<div id="html_7fe0fde557464131857c94a0189a662c" style="width: 100.0%; height: 100.0%;">East-Kilbride, Rating = 3.9 from 89 reviews</div>`)[0];
+            popup_f1ff8b31dedf4e15bd087f3ac5728e41.setContent(html_7fe0fde557464131857c94a0189a662c);
+        
+
+        circle_f8577fe321d44982a85b707b521b8b59.bindPopup(popup_f1ff8b31dedf4e15bd087f3ac5728e41)
+        ;
+
+        
+    
+    
+            var circle_701bda2cd5584dd0a49045ad8cfd55af = L.circle(
+                [55.8571398, -4.247420999999999],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 39089.64057138413, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_d634ef95c0704e379c5fff5266a62338 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7241522765e44bd9a237251d2f4f50e8 = $(`<div id="html_7241522765e44bd9a237251d2f4f50e8" style="width: 100.0%; height: 100.0%;">Glasgow-G1, Rating = 4.0 from 1528 reviews</div>`)[0];
+            popup_d634ef95c0704e379c5fff5266a62338.setContent(html_7241522765e44bd9a237251d2f4f50e8);
+        
+
+        circle_701bda2cd5584dd0a49045ad8cfd55af.bindPopup(popup_d634ef95c0704e379c5fff5266a62338)
+        ;
+
+        
+    
+    
+            var circle_4008a8d4c46b4824a1e085aae46cda96 = L.circle(
+                [54.6828331, -1.2115399],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16643.31697709324, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_31ee3063dc9e4304b03268375d92da5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60e33e9c20124668ac59492f742c133c = $(`<div id="html_60e33e9c20124668ac59492f742c133c" style="width: 100.0%; height: 100.0%;">Hartlepool, Rating = 3.9 from 277 reviews</div>`)[0];
+            popup_31ee3063dc9e4304b03268375d92da5f.setContent(html_60e33e9c20124668ac59492f742c133c);
+        
+
+        circle_4008a8d4c46b4824a1e085aae46cda96.bindPopup(popup_31ee3063dc9e4304b03268375d92da5f)
+        ;
+
+        
+    
+    
+            var circle_b7c7b4a40971439a8aca1a831970b15b = L.circle(
+                [53.4094746, -2.9726898],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 36180.105030251085, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_54bac5ade4794b9c9acb2c93329e36ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e037e3218744aca9d2fb12f4d0d3c2b = $(`<div id="html_8e037e3218744aca9d2fb12f4d0d3c2b" style="width: 100.0%; height: 100.0%;">Liverpool, Rating = 4.0 from 1309 reviews</div>`)[0];
+            popup_54bac5ade4794b9c9acb2c93329e36ca.setContent(html_8e037e3218744aca9d2fb12f4d0d3c2b);
+        
+
+        circle_b7c7b4a40971439a8aca1a831970b15b.bindPopup(popup_54bac5ade4794b9c9acb2c93329e36ca)
+        ;
+
+        
+    
+    
+            var circle_cf142f76edeb4ca4aa74a3197bf1eca5 = L.circle(
+                [55.87918279999999, -3.5209457],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8774.964387392123, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_e746fd7f522c4f8a9cb68794b2e6081b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6aa211e07dfd4da58e47ecd008b25f2f = $(`<div id="html_6aa211e07dfd4da58e47ecd008b25f2f" style="width: 100.0%; height: 100.0%;">Livingston, Rating = 3.0 from 77 reviews</div>`)[0];
+            popup_e746fd7f522c4f8a9cb68794b2e6081b.setContent(html_6aa211e07dfd4da58e47ecd008b25f2f);
+        
+
+        circle_cf142f76edeb4ca4aa74a3197bf1eca5.bindPopup(popup_e746fd7f522c4f8a9cb68794b2e6081b)
+        ;
+
+        
+    
+    
+            var circle_c8a909d3395b48dc871f46d8f48e3f12 = L.circle(
+                [51.2724671, 0.5262283],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19773.71993328519, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_7131d134993444c795ef2e1177b7b948 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f44c9789758d4fb884a5f70b59a20bb1 = $(`<div id="html_f44c9789758d4fb884a5f70b59a20bb1" style="width: 100.0%; height: 100.0%;">Maidstone, Rating = 4.0 from 391 reviews</div>`)[0];
+            popup_7131d134993444c795ef2e1177b7b948.setContent(html_f44c9789758d4fb884a5f70b59a20bb1);
+        
+
+        circle_c8a909d3395b48dc871f46d8f48e3f12.bindPopup(popup_7131d134993444c795ef2e1177b7b948)
+        ;
+
+        
+    
+    
+            var circle_55c04d9ba2974fbb9918f1dcb02cd1f7 = L.circle(
+                [54.5753453, -1.2395668],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16124.515496597098, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_7de00a13f9774694b165fdc321c51b9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_311899e84e9c4c0eaf8241f68640bda4 = $(`<div id="html_311899e84e9c4c0eaf8241f68640bda4" style="width: 100.0%; height: 100.0%;">Middlesbrough, Rating = 4.2 from 260 reviews</div>`)[0];
+            popup_7de00a13f9774694b165fdc321c51b9b.setContent(html_311899e84e9c4c0eaf8241f68640bda4);
+        
+
+        circle_55c04d9ba2974fbb9918f1dcb02cd1f7.bindPopup(popup_7de00a13f9774694b165fdc321c51b9b)
+        ;
+
+        
+    
+    
+            var circle_3edcfd94b47c412fb7f3c2a914b3f8f6 = L.circle(
+                [54.9720029, -1.6143774],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28354.893757515652, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_7222372333b5413ba492ebcbfa7bf503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_624d68eea3fc405ba987f8f4250a82ec = $(`<div id="html_624d68eea3fc405ba987f8f4250a82ec" style="width: 100.0%; height: 100.0%;">Newcastle-Upon-Tyne, Rating = 3.9 from 804 reviews</div>`)[0];
+            popup_7222372333b5413ba492ebcbfa7bf503.setContent(html_624d68eea3fc405ba987f8f4250a82ec);
+        
+
+        circle_3edcfd94b47c412fb7f3c2a914b3f8f6.bindPopup(popup_7222372333b5413ba492ebcbfa7bf503)
+        ;
+
+        
+    
+    
+            var circle_602281f2ff7a405290a5936a8a5f2b67 = L.circle(
+                [52.52103890000001, -1.4696901],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15297.058540778355, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_1e7ccde8c2aa48399201e1dfcef9227e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f788df8bf8e41958dfeaf8c3f87efc2 = $(`<div id="html_1f788df8bf8e41958dfeaf8c3f87efc2" style="width: 100.0%; height: 100.0%;">Nuneaton, Rating = 3.9 from 234 reviews</div>`)[0];
+            popup_1e7ccde8c2aa48399201e1dfcef9227e.setContent(html_1f788df8bf8e41958dfeaf8c3f87efc2);
+        
+
+        circle_602281f2ff7a405290a5936a8a5f2b67.bindPopup(popup_1e7ccde8c2aa48399201e1dfcef9227e)
+        ;
+
+        
+    
+    
+            var circle_65c9da4dec7541c384f5d76f6fb89c00 = L.circle(
+                [53.5415269, -2.1120332],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21047.565179849185, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_54b3e77e66724b81bb66c5b31501d5f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dac46a90a2b142ffa4128badc9c61ea4 = $(`<div id="html_dac46a90a2b142ffa4128badc9c61ea4" style="width: 100.0%; height: 100.0%;">Oldham, Rating = 4.0 from 443 reviews</div>`)[0];
+            popup_54b3e77e66724b81bb66c5b31501d5f0.setContent(html_dac46a90a2b142ffa4128badc9c61ea4);
+        
+
+        circle_65c9da4dec7541c384f5d76f6fb89c00.bindPopup(popup_54b3e77e66724b81bb66c5b31501d5f0)
+        ;
+
+        
+    
+    
+            var circle_9ccaa98e3bcb40c283698f3ec1598912 = L.circle(
+                [53.7571692, -2.705048199999999],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18220.867158288598, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_aa28c2a43c354bf99882c8eaaeddd54d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a03b8ab71e54a09a0d1b8d9748c4621 = $(`<div id="html_1a03b8ab71e54a09a0d1b8d9748c4621" style="width: 100.0%; height: 100.0%;">Preston, Rating = 4.2 from 332 reviews</div>`)[0];
+            popup_aa28c2a43c354bf99882c8eaaeddd54d.setContent(html_1a03b8ab71e54a09a0d1b8d9748c4621);
+        
+
+        circle_9ccaa98e3bcb40c283698f3ec1598912.bindPopup(popup_aa28c2a43c354bf99882c8eaaeddd54d)
+        ;
+
+        
+    
+    
+            var circle_e92a9fcb0f0941b0ab31cd1aa1518c9c = L.circle(
+                [53.3753049, -1.4740928],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19519.221295943138, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_1db3f16de4894439a718284e0f9aec90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d24fdf0922c34d55b812c32f5525844d = $(`<div id="html_d24fdf0922c34d55b812c32f5525844d" style="width: 100.0%; height: 100.0%;">Sheffield, Rating = 3.8 from 381 reviews</div>`)[0];
+            popup_1db3f16de4894439a718284e0f9aec90.setContent(html_d24fdf0922c34d55b812c32f5525844d);
+        
+
+        circle_e92a9fcb0f0941b0ab31cd1aa1518c9c.bindPopup(popup_1db3f16de4894439a718284e0f9aec90)
+        ;
+
+        
+    
+    
+            var circle_6dc186cbb51e488fa84c6d2b9992a1b1 = L.circle(
+                [53.452532, -2.7336735],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15491.933384829668, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_87e4e5225329420cbc24676d5575f497 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34cd1c274ff943819771071c2cd238f5 = $(`<div id="html_34cd1c274ff943819771071c2cd238f5" style="width: 100.0%; height: 100.0%;">St-Helens, Rating = 4.2 from 240 reviews</div>`)[0];
+            popup_87e4e5225329420cbc24676d5575f497.setContent(html_34cd1c274ff943819771071c2cd238f5);
+        
+
+        circle_6dc186cbb51e488fa84c6d2b9992a1b1.bindPopup(popup_87e4e5225329420cbc24676d5575f497)
+        ;
+
+        
+    
+    
+            var circle_4255492dc1d343a696064878d87e1322 = L.circle(
+                [52.5849093, -1.983740399999999],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15000.0, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_c679d2ec2ebf445293230b9d98219703 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a09c232d73c44f4b8bbf92d4ad761af = $(`<div id="html_4a09c232d73c44f4b8bbf92d4ad761af" style="width: 100.0%; height: 100.0%;">Walsall, Rating = 3.5 from 225 reviews</div>`)[0];
+            popup_c679d2ec2ebf445293230b9d98219703.setContent(html_4a09c232d73c44f4b8bbf92d4ad761af);
+        
+
+        circle_4255492dc1d343a696064878d87e1322.bindPopup(popup_c679d2ec2ebf445293230b9d98219703)
+        ;
+
+        
+    
+    
+            var circle_9cf1fc6c818342b9a18ba1633dc7679d = L.circle(
+                [53.3683969, -2.7247524],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19052.55888325765, "stroke": true, "weight": 3}
+            ).addTo(map_0468f04361824d38a2274ee92c0cfc7a);
+        
+    
+        var popup_aaf1731af8db495a84899b2893329e01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a347ce11f4a4cd8a9dae5d4e2df2631 = $(`<div id="html_2a347ce11f4a4cd8a9dae5d4e2df2631" style="width: 100.0%; height: 100.0%;">Widnes, Rating = 4.1 from 363 reviews</div>`)[0];
+            popup_aaf1731af8db495a84899b2893329e01.setContent(html_2a347ce11f4a4cd8a9dae5d4e2df2631);
+        
+
+        circle_9cf1fc6c818342b9a18ba1633dc7679d.bindPopup(popup_aaf1731af8db495a84899b2893329e01)
+        ;
+
+        
+    
+</script>
